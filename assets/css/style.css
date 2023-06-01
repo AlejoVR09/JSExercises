@@ -1,0 +1,15 @@
+.salario {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pantallaContainer {
+    width: 75%;
+    height: 94rem;
+    margin: 0 auto;
+}
+
+#pantalla {
+    margin: 0 auto;
+}
