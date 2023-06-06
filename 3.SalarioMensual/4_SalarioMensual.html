@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <section class="salario">
+        <h1>Salario Mensual</h1>
+        <p class="problem">Calcule el sueldo mensual de un trabajador ingresando el número de horas trabajadas en
+            <br>el mes y el valor tanto como de las horas normales de trabajo y las horas extras.</p>
+        <form action="" id="form_operations">
+            <label for="horas_mes"><span>Horas trabajadas</span></label>
+            <input type="number" id="horas_mes" placeholder="Horas del mes"></input>
+            <label for="valor_hora"><span>Valor hora</span></label>
+            <input type="number" id="valor_hora" placeholder="Valor hora"></input>
+            <label for="horas_extras_mes"><span>Horas Extras</span></label>
+            <input type="number" id="horas_extras_mes" placeholder="Horas extras del mes"></input>
+            <label for="valor_hora_extra"><span>Valor hora extra</span></label>
+            <input type="number" id="valor_hora_extra" placeholder="Valor hora extra"></input>
+            <input type="button" value="Submit" id="btn_salario">
+        </form>
+        
+
+        <section id="salario_neto">
+            <p id="salario_value"></p>
+            <button value="Reset" id="btn_reset">Reset</button>
+        </section>
+    </section>
+    <script src="4_SalarioMensual.js"></script>
+</body>
+</html>

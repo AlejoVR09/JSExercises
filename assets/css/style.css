@@ -1,3 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.problem {
+    text-align: center;
+}
+
+p, label {
+    font-size: .9rem;
+}
+
 .salario, .operations {
     max-width: 70rem;
     margin: 0 auto;
@@ -5,9 +21,10 @@
 }
 
 .pantallaContainer {
-    width: 75%;
+    width: 55%;
     height: 94rem;
     margin: 0 auto;
+    
 }
 
 #pantalla {
