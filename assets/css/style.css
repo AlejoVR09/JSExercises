@@ -1,4 +1,4 @@
-.salario {
+.salario, .operations {
     max-width: 70rem;
     margin: 0 auto;
     text-align: center;
@@ -12,4 +12,16 @@
 
 #pantalla {
     margin: 0 auto;
+}
+
+/* Operaciones */
+#form_operations{
+    display: flex;
+    flex-direction: column;
+}
+
+#form_operations input {
+    width: 10%;
+    margin: .3rem auto;
+    
 }

@@ -1,5 +1,5 @@
-// <!-- Aplica la fórmula a = (b*h)/2 para calcular el área de un triángulo donde sus dimensiones
-// base y altura se deben pedir al usuario que las digite -->
+//Aplica la fórmula a = (b*h)/2 para calcular el área de un triángulo donde sus dimensiones
+//base y altura se deben pedir al usuario que las digite
 const pantalla=document.getElementById("pantalla")
 const lienzo=pantalla.getContext("2d")
 const textoPantalla=document.getElementById("textoPantalla")
@@ -18,7 +18,7 @@ var b=prompt("Digite la medida de la base del triangulo")*10
 canvas()
 lienzo.fillStyle="white"
 lienzo.beginPath()
-lienzo.moveTo(500,0)
+lienzo.moveTo(500,10)
 lienzo.lineTo(500-(b/2),h)
 lienzo.lineTo(500+(b/2),h)
 lienzo.fill()
