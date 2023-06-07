@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precio-Iva</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <section class="operations">
+        <h1>Precio-Iva</h1>
+        <p class="problem">Digita el ingreso del precio de un producto y se debe calcular el IVA, mostrar cuanto es el
+            IVA que se agrega, mostrar el precio del producto sin IVA y el total a pagar</p>
+        <form action="" id="form_operations">
+            <label for="price"><span>Precio del producto</span></label>
+            <input type="number" id="price" placeholder="Digita el precio"></input>
+            <label for="iva"><span>Iva</span></label>
+            <input type="number" id="iva" placeholder="Iva"></input>
+            <input type="button" value="Calculate" id="btn_calculate">
+        </form>
+        
+
+        <section id="result">
+            <p id="suma"></p>
+            <button value="Reset" id="btn_reset">Reset</button>
+        </section>
+    </section>
+    <script src="5_PrecioIva.js"></script>
+</body>
+</html>

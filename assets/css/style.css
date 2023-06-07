@@ -14,11 +14,13 @@ p, label {
     font-size: .9rem;
 }
 
-.salario, .operations {
+.salario, .operations, .salondeclase {
     max-width: 70rem;
     margin: 0 auto;
     text-align: center;
 }
+
+
 
 .pantallaContainer {
     width: 55%;
@@ -31,13 +33,13 @@ p, label {
     margin: 0 auto;
 }
 
-/* Operaciones */
-#form_operations{
+
+#form_operations, #form_class{
     display: flex;
     flex-direction: column;
 }
 
-#form_operations input {
+#form_operations input, #form_class input {
     width: 10%;
     margin: .3rem auto;
     

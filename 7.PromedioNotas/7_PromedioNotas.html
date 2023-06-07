@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio Notas</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <section class="operations">
+        <h1>Promedio de notas</h1>
+        <p class="problem"> Calcule el promedio de 3 notas de un alumno, el rango de cada nota es del 1 al 5</p>
+        <form action="" id="form_operations">
+            <label for="grade"><span>Notas</span></label>
+            <input min="1" max="5" type="number" id="grade" placeholder="Digita la nota"></input>
+            <input type="button" value="Calculate" id="btn_calculate">
+        </form>
+        
+
+        <section id="result">
+            <p id="suma_notas"></p>
+            <button value="Reset" id="btn_reset">Reset</button>
+        </section>
+    </section>
+
+    <script src="../7.PromedioNotas/7_PromedioNotas.js"></script>
+    
+</body>
+</html>
