@@ -20,7 +20,7 @@ btn_calculate.addEventListener('click',()=>{
 
     if (cont==3) {
         prom=notas/3
-        suma_notas.innerHTML=prom
+        suma_notas.innerHTML="Promedio: "+Number(prom)
         result.style.display="block"
         form_operations.style.display="none"
     }
@@ -31,7 +31,3 @@ btn_calculate.addEventListener('click',()=>{
 btn_reset.addEventListener('click',()=>{
     location.reload()
 })
-
-if (cont===2) {
-    alert("si")
-}
